@@ -32,7 +32,7 @@ anchor build
 
 if ($LASTEXITCODE -eq 0) {
     Write-Host "`nBuild successful! Program compiled." -ForegroundColor Green
-    Write-Host "Program ID: 2pdQQB9pMDbM7VFYPwwFs2gPC1GMsHwYHavg6Dzh33K4" -ForegroundColor Cyan
+    Write-Host "Program ID can be found in Anchor.toml or target/idl/darkdrop.json" -ForegroundColor Cyan
 } else {
     Write-Host "`nBuild failed. Check errors above." -ForegroundColor Red
     Write-Host "`nNote: If you see Rust version errors, Anchor 0.32.1 requires Rust 1.76+," -ForegroundColor Yellow
